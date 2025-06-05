@@ -44,9 +44,9 @@ import {
 
 
 // Import Tekisky separately
-import Wahy from "../assets/company/Wahy.png";
+import wahy from "../assets/company/wahy.png";
 import zignature from "../assets/company/zignature.png";
-import Selfie from "../assets/company/Selfie.png";
+import Selfie from "../assets/company/selfie.png";
 
 
 export const navLinks = [
@@ -197,7 +197,7 @@ const experiences = [
   {
     title: "Python Full-Stack Developer",
     company_name: "Wahy Labs Solutions",
-    icon: Wahy,
+    icon: wahy,
     iconBg: "#383E56",
     date: "May 2024 - May 2025",
     points: [
