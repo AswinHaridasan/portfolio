@@ -292,9 +292,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Guruvayor Devaswom online-booking",
+    name: "iWeddings Studio",
     description:
-      "A digital platform for booking temple services like darshan, poojas, marriage functions, and accessing birth star (nakshatra) details. It offers easy and convenient access for devotees.",
+      "A premium digital showcase for iWeddings Studio, specializing in timeless wedding photography. The website offers effortless booking, portfolio browsing, and client storytelling designed to capture hearts before the first click",
 
     tags: [
       {
@@ -319,9 +319,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "FarmXpert",
+    name: "Botanica Food & Drinks",
     description:
-      "The E-Farms Seed Description System helps manage planting materials efficiently. It replaces manual notebooks with a digital platform and improving accuracy. This system automates seed tracking, purchases, and customer payments.",
+      "A boutique hotel chain specializing in culinary-infused hospitality experiences, merging premium accommodations with local food culture for travelers who crave authenticity.",
     tags: [
       {
         name: "Python-Django",

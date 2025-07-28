@@ -11,8 +11,8 @@ import framer from './tech/framer.png';
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import gearXpert from './p1.jpg';
-import project3 from './p3.jpg';
-import project2 from './p2.jpg'
+import project3 from './p3.jpeg';
+import project2 from './p2.jpeg'
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
 import aws from './tech/aws.png';
