@@ -10,13 +10,16 @@ import gsap from './tech/gsap.png'
 import framer from './tech/framer.png';
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
-import gearXpert from './p1.jpg';
-import project3 from './p3.jpeg';
-import project2 from './p2.jpeg'
+import gearXpert from './p1.png';
+import project3 from './p3.jpg';
+import project2 from './p2.jpg';
+import lumora from './l1.jpg';
+import selfie from './s1.png';
+import mobileworld from './mw1.jpg';
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
 import aws from './tech/aws.png';
-import mui from './tech/mui.png'
+import mui from './tech/mui.png';
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -24,19 +27,17 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
-
 import python from "./tech/python.png";
 import django from "./tech/django.png";
 import postgresql from "./tech/postgresql.png";
 import powerbi from "./tech/powerbi.png";
 import excel from "./tech/excel.png";
 import ps from "./tech/ps.png";
-
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
-import thirdTestimonial from './third testimonial.webp'
+import thirdTestimonial from './third testimonial.webp';
 
 export {
   logo,
@@ -51,6 +52,9 @@ export {
   gearXpert,
   project2,
   project3,
+  lumora,
+  selfie,
+  mobileworld,
   mysql,
   express,
   aws,
@@ -63,14 +67,12 @@ export {
   figma,
   git,
   html,
-
   python,
   django,
   postgresql,
   powerbi,
   excel,
   ps,
-
   javascript,
   mongodb,
   nodejs,
@@ -78,5 +80,4 @@ export {
   redux,
   tailwind,
   threejs,
-
 };

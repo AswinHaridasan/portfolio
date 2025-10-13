@@ -1,4 +1,3 @@
-
 import {
   logo,
   backend,
@@ -12,24 +11,24 @@ import {
   gearXpert,
   project2,
   project3,
+  lumora,
+  selfie,
+  mobileworld,
   mysql,
   express,
   aws,
   mui,
-  
   gsap,
   framer,
   figma,
   git,
   html,
-
   python,
   django,
   postgresql,
   powerbi,
   excel,
   ps,
-
   javascript,
   mongodb,
   nodejs,
@@ -40,22 +39,17 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
-} from '../assets'
+} from '../assets';
 
-
-// Import Tekisky separately
+// Import company logos separately
 import wahy from "../assets/company/wahy.png";
 import zignature from "../assets/company/zignature.png";
 import Selfie from "../assets/company/selfie.png";
 
-
 export const navLinks = [
-
-
   {
     id: "about",
     title: "About",
-    
   },
   {
     id: "work",
@@ -98,7 +92,6 @@ const technologies = [
   {
     name: "HTML 5",
     icon: html,
-
   },
   {
     name: "CSS 3",
@@ -132,65 +125,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-
-
-
-
-
-  // {
-  //   name: "React JS",
-  //   icon: reactjs,
-  // },
-  // {
-  //   name: "gsap",
-  //   icon: gsap,
-  // },
-  // {
-  //   name: "framer",
-  //   icon: framer,
-  // },
-
- 
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
-  // {
-  //   name: "Material Ui",
-  //   icon: mui,
-  // },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
-  // {
-  //   name: "Express Js",
-  //   icon: express,
-  // },
   {
     name: "AWS",
     icon: aws,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
-  
-
- 
-
 ];
 
 const experiences = [
@@ -203,7 +141,7 @@ const experiences = [
     points: [
       "Studied and gained expertise in advanced Python and the Django framework for web development.",
       "Developed and designed dynamic web applications using HTML, CSS, and JavaScript.",
-      "Gained hands-on experience with full-stack development, including both frontend and backend technologies..",
+      "Gained hands-on experience with full-stack development, including both frontend and backend technologies.",
       "Collaborated with mentors and team members to enhance problemsolving and coding efficiency.",
     ],
   },
@@ -217,8 +155,6 @@ const experiences = [
       "Guiding students through academic and career pathways at Zignature Education Consultancy.",
       "Providing expert advice on educational programs and assisting with admissions processes.",
       "Passionate about helping individuals achieve their educational goals with personalized support.",
-    
-    
     ],
   },
   {
@@ -234,8 +170,6 @@ const experiences = [
     ],
   },
 ];
-
-
 
 const testimonials = [
   {
@@ -286,7 +220,6 @@ const projects = [
         name: "MySQL",
         color: "green-text-gradient",
       },
- 
     ],
     image: project2,
     source_code_link: "https://github.com/",
@@ -295,7 +228,6 @@ const projects = [
     name: "iWeddings Studio",
     description:
       "A premium digital showcase for iWeddings Studio, specializing in timeless wedding photography. The website offers effortless booking, portfolio browsing, and client storytelling designed to capture hearts before the first click",
-
     tags: [
       {
         name: "Python-Django",
@@ -313,15 +245,14 @@ const projects = [
         name: "MySQL",
         color: "green-text-gradient",
       },
- 
     ],
     image: gearXpert,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Botanica Food & Drinks",
+    name: "Lumora Events",
     description:
-      "A boutique hotel chain specializing in culinary-infused hospitality experiences, merging premium accommodations with local food culture for travelers who crave authenticity.",
+      "A vibrant digital platform for an event management group, designed to showcase services, past events, and client testimonials. The portal enables seamless event inquiries, service bookings, and personalized planning experiences for clients.",
     tags: [
       {
         name: "Python-Django",
@@ -339,7 +270,81 @@ const projects = [
         name: "MySQL",
         color: "green-text-gradient",
       },
- 
+    ],
+    image: lumora,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Selfie Studio Web Portal",
+    description:
+      "A modern digital platform for a selfie studio, offering an interactive experience for visitors to explore studio packages, view creative galleries, and book sessions online with ease — designed to turn every visit into a memorable capture",
+    tags: [
+      {
+        name: "Python-Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML-CSS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: selfie,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Mobile World Web portal",
+    description:
+      "A complete digital storefront for a mobile shop, offering seamless product browsing, brand-wise filtering, and easy purchase options. Designed to deliver a modern retail experience with up-to-date product showcases and customer engagement features.",
+    tags: [
+      {
+        name: "Python-Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML-CSS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: mobileworld,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Craftman Interiors",
+    description:
+      "A premium digital portfolio for an interior designing group, showcasing elegant design projects, service offerings, and client transformations. Built to inspire visitors with curated visuals and enable effortless consultation bookings",
+    tags: [
+      {
+        name: "Python-Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML-CSS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
     ],
     image: project3,
     source_code_link: "https://github.com/",
