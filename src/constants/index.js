@@ -169,6 +169,7 @@ const experiences = [
       "Committed to delivering high-quality, memorable images that reflect the essence of every special occasion.",
     ],
   },
+  
 ];
 
 const testimonials = [
