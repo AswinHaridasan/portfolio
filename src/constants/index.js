@@ -45,6 +45,7 @@ import {
 import wahy from "../assets/company/wahy.png";
 import zignature from "../assets/company/zignature.png";
 import Selfie from "../assets/company/selfie.png";
+import stackly from "../assets/company/stackly.png";
 
 export const navLinks = [
   {
@@ -134,6 +135,20 @@ const technologies = [
 const experiences = [
   {
     title: "Python Full-Stack Developer",
+    company_name: "The Stackly",
+    icon: stackly,
+    iconBg: "#383E56",
+    date: "April 2026 - Present",
+    points: [
+      "Building and maintaining scalable full-stack web applications using Python and Django for enterprise clients.",
+      "Designing responsive and interactive frontend interfaces with React.js, HTML, CSS, and JavaScript.",
+      "Optimizing database performance and writing efficient queries using PostgreSQL and MySQL.",
+      "Collaborating with cross-functional teams to deliver high-quality software solutions in an Agile environment.",
+      "Conducting code reviews and mentoring junior developers to maintain code quality and best practices.",
+    ],
+  },
+  {
+    title: "Python Full-Stack Developer",
     company_name: "Wahy Labs Solutions",
     icon: wahy,
     iconBg: "#383E56",
@@ -148,7 +163,7 @@ const experiences = [
   {
     title: "Education Consultant",
     company_name: "Zignature",
-    icon: zignature, 
+    icon: zignature,
     iconBg: "#383E56",
     date: "2022 - PRESENT",
     points: [
@@ -160,8 +175,8 @@ const experiences = [
   {
     title: "Wedding Photographer",
     company_name: "Selfie Wedding Studio",
-    icon: Selfie, 
-    iconBg: "#383E56", 
+    icon: Selfie,
+    iconBg: "#383E56",
     date: "2018 - PRESENT",
     points: [
       "Passionate wedding photographer with a keen eye for capturing timeless moments.",
@@ -169,7 +184,6 @@ const experiences = [
       "Committed to delivering high-quality, memorable images that reflect the essence of every special occasion.",
     ],
   },
-  
 ];
 
 const testimonials = [
